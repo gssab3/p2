@@ -204,6 +204,19 @@ CREATE TABLE `prodotto` (
 LOCK TABLES `prodotto` WRITE;
 /*!40000 ALTER TABLE `prodotto` DISABLE KEYS */;
 INSERT INTO `prodotto` VALUES (1,'Spider-Man Miles Morales','Marvel\'s Spider-Man Miles Morales - PlayStation 4',NULL,'3%',1,'2020-12-13',45.99,60,'images\\SpiderManMilesMoralesPS4.jpg','PlayStation 4','Avventura'),(2,'Fifa 21','Fifa 21 - PlayStation 5',NULL,'3%',1,'2020-10-13',35.99,50,'images\\fifa21PS5.jpg','PlayStation 5','Simulazione, Sportivo'),(3,'Mario Kart 8 Deluxe','Mario Kart 8 Deluxe - Switch',NULL,'3%',1,'2017-04-28',51,59,'images\\MarioKart8Deluxe.jpg','Nintendo Switch','Gioco Di Guida'),(4,'Resident Evil Village','Resident Evil Village - Standard Edition Xbox Series',NULL,'3%',1,'2021-05-06',69.99,27,'images\\ResidentEvilVillageXboxSeries.jpg','Xbox Series','Horror - Azione'),(5,'Mass Effect - LE','Mass Effect (Legendary Edition) - Xbox One',NULL,'3%',1,'2021-05-13',60,39,'images\\MassEffectLegendaryEditionXboxOne.jpg','Xbox One','Gioco di ruolo - Azione'),(6,'Fifa 21','Fifa 21 - Xbox One','null','3%',1,'2020-10-13',35.99,50,'images\\Fifa21XboxOne.jpg','Xbox One','calcio'),(7,'The Legend Of Zelda','The Legend of Zelda Breath of the Wild - Switch',NULL,'3%',1,'2017-03-03',41,29,'images\\ZeldaSwitch.jpg','Nintendo Switch','Avventura, Gioco di Ruolo, Open World'),(8,'Nba 2k21','NBA 2K21 - Xbox Series',NULL,'3%',1,'2020-10-10',40,29,'images\\Nba2k21XboxSeries.jpg','Xbox Series','Simulazione, Sportivo'),(9,'Nba 2k21 (MFE)','NBA 2K21 (MAMBA FOREVER EDITION) - Xbox Series',NULL,'3%',1,'2020-10-10',50,20,'images\\Nba2k21MEXboxSeries.jpg','Xbox Series','Simulazione, Sportivo'),(10,'Rachet & Clank','Rachet & Clank - PlayStation 5',NULL,'3%',1,'2021-06-11',65.99,44,'images\\RachetClankPS5.jpg','PlayStation 5','Avventura, Azione'),(11,'Hitman 3','Hitman 3 - XboxSeries',NULL,'3%',1,'2020-10-13',55.99,48,'images\\Hitman3XboxSeries.jpg','Xbox Series','Azione'),(12,'Devil May Cry 5','Devil May Cry 5 Special Edition - Xbox Series',NULL,'3%',1,'2020-11-10',35.99,49,'images\\DevilMayCry5SpecialEditionXboxSeries.jpg','Xbox Series','Azione'),(13,'Subnautica below 0','Subnautica Below Zero - Xbox Series',NULL,'3%',1,'2020-10-13',35.99,48,'images\\SubnauticaXboxSeries.jpg','Xbox Series','Avventura, Open World');
+
+-- Dumping data for table `cliente`
+--
+
+LOCK TABLES `cliente` WRITE;
+/*!40000 ALTER TABLE `cliente` DISABLE KEYS */;
+INSERT INTO `cliente` VALUES 
+('liviovona24@gmail.com','admin','d033e22ae348aeb5660fc2140aec35850c4da997','livio','vona','2000-03-22',1,'1111222233334444','Via G.Luigi X','12345'),
+('marco@gmail.com','user','12dea96fec20593566ab75692c9949596833adc9','marco','rossi','2000-02-23',0,'1111222233334444','Via G.Luigi X','12345');
+/*!40000 ALTER TABLE `cliente` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
 /*!40000 ALTER TABLE `prodotto` ENABLE KEYS */;
 UNLOCK TABLES;
 
